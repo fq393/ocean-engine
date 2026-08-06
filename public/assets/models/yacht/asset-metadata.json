@@ -1,0 +1,30 @@
+{
+  "asset": "modern tropical motor yacht",
+  "provider": "Tripo3D",
+  "task_type": "text_to_model",
+  "model_version": "v2.5-20250123",
+  "prompt": "game-ready modern tropical luxury motor yacht, polished white sculpted hull, dark panoramic glazing, teak rear deck, radar mast, readable bow and stern silhouette, premium PBR materials, centered pivot, isolated single boat, no water, no stand, no text",
+  "generation": {
+    "texture": true,
+    "pbr": true,
+    "texture_alignment": "geometry",
+    "export_uv": true,
+    "geometry_quality": "standard"
+  },
+  "optimization": {
+    "tool": "gltf-transform 4.4.2",
+    "source_bytes": 11896004,
+    "delivery_bytes": 1363008,
+    "delivery_sha256": "d83cd834012df1d1e8c0fe14a2c03839e732dc9ea093fd59c292d36d433f3467",
+    "source_triangles": 382988,
+    "delivery_triangles": 61276,
+    "texture_size": 1024,
+    "texture_format": "webp",
+    "geometry_quantization": true
+  },
+  "integration": {
+    "target_length_meters": 9,
+    "draft_depth_meters": 1.05,
+    "fallback": "procedural yacht when the GLB cannot be loaded"
+  }
+}

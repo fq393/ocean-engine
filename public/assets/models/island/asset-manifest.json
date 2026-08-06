@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 1,
+  "unitMeters": 1,
+  "coordinateSystem": "gltf-y-up",
+  "seed": 20260805,
+  "windAttribute": "_WIND_WEIGHT",
+  "island": {
+    "lod0": {
+      "url": "/assets/models/island/island_base_lod0.glb",
+      "triangles": 36200,
+      "sha256": "8b0236e5c76f1677b4afa0697c2478d95d8f704ccc589f5b8c49babdcae69a1f",
+      "bounds": {
+        "min": [
+          -18.0,
+          -13.0,
+          -0.00014
+        ],
+        "max": [
+          18.0,
+          13.0,
+          3.35842
+        ]
+      },
+      "objects": [
+        "GEO_island_lod0"
+      ]
+    },
+    "lod1": {
+      "url": "/assets/models/island/island_base_lod1.glb",
+      "triangles": 12480,
+      "sha256": "879bc27a1f726fbcd6e720fd0b01a35295fadfa423cdd00ec510e2b088d23a59",
+      "bounds": {
+        "min": [
+          -18.0,
+          -13.0,
+          -0.00018
+        ],
+        "max": [
+          18.0,
+          13.0,
+          3.35842
+        ]
+      },
+      "objects": [
+        "GEO_island_lod1"
+      ]
+    },
+    "lod2": {
+      "url": "/assets/models/island/island_base_lod2.glb",
+      "triangles": 4240,
+      "sha256": "f5507167677d8c9e57410ee30f6bcfd65c22a1e9861b94bf68a388dc222e88db",
+      "bounds": {
+        "min": [
+          -18.0,
+          -13.0,
+          -0.00018
+        ],
+        "max": [
+          18.0,
+          13.0,
+          3.35624
+        ]
+      },
+      "objects": [
+        "GEO_island_lod2"
+      ]
+    },
+    "collision": {
+      "url": "/assets/models/island/island_collision.glb",
+      "triangles": 512,
+      "sha256": "63e85edefd8f71584f66e38195b6ccd0ed9620d87a2a1fc738268b1bfb061a12",
+      "bounds": {
+        "min": [
+          -17.71291,
+          -13.1025,
+          -1.25
+        ],
+        "max": [
+          17.72751,
+          12.45182,
+          3.2843
+        ]
+      },
+      "objects": [
+        "GEO_island_collision"
+      ]
+    }
+  },
+  "palms": {
+    "lod0": {
+      "url": "/assets/models/island/palm_library_lod0.glb",
+      "triangles": 13434,
+      "sha256": "5988d64fab48e03a79ee596c6c31a7be71a4d16e5ea5107b59193508f50bd16d",
+      "bounds": {
+        "min": [
+          -3.03579,
+          -4.33716,
+          0.0
+        ],
+        "max": [
+          6.02887,
+          4.30705,
+          8.3299
+        ]
+      },
+      "objects": [
+        "GEO_palm_upright_trunk_lod0",
+        "GEO_palm_upright_fronds_lod0",
+        "GEO_palm_leaning_trunk_lod0",
+        "GEO_palm_leaning_fronds_lod0",
+        "GEO_palm_tall_trunk_lod0",
+        "GEO_palm_tall_fronds_lod0",
+        "GEO_palm_wide_trunk_lod0",
+        "GEO_palm_wide_fronds_lod0"
+      ]
+    },
+    "lod1": {
+      "url": "/assets/models/island/palm_library_lod1.glb",
+      "triangles": 7708,
+      "sha256": "94427b51a408031411a93a0dc303132e964a675c18fd1cf043cb48394c961fcc",
+      "bounds": {
+        "min": [
+          -2.99985,
+          -4.34152,
+          -9e-05
+        ],
+        "max": [
+          6.02887,
+          4.31496,
+          8.33023
+        ]
+      },
+      "objects": [
+        "GEO_palm_upright_trunk_lod1",
+        "GEO_palm_upright_fronds_lod1",
+        "GEO_palm_leaning_trunk_lod1",
+        "GEO_palm_leaning_fronds_lod1",
+        "GEO_palm_tall_trunk_lod1",
+        "GEO_palm_tall_fronds_lod1",
+        "GEO_palm_wide_trunk_lod1",
+        "GEO_palm_wide_fronds_lod1"
+      ]
+    },
+    "lod2": {
+      "url": "/assets/models/island/palm_library_lod2.glb",
+      "triangles": 2090,
+      "sha256": "c859a280e17c2863f96b5be89f83f440257b3f0f4bc0de240b5886ae3c3db4f3",
+      "bounds": {
+        "min": [
+          -2.99985,
+          -4.34886,
+          2e-05
+        ],
+        "max": [
+          6.04552,
+          4.31496,
+          8.33232
+        ]
+      },
+      "objects": [
+        "GEO_palm_upright_trunk_lod2",
+        "GEO_palm_upright_fronds_lod2",
+        "GEO_palm_leaning_trunk_lod2",
+        "GEO_palm_leaning_fronds_lod2",
+        "GEO_palm_tall_trunk_lod2",
+        "GEO_palm_tall_fronds_lod2",
+        "GEO_palm_wide_trunk_lod2",
+        "GEO_palm_wide_fronds_lod2"
+      ]
+    }
+  },
+  "placements": [
+    {
+      "variant": "upright",
+      "position": [
+        -13.4,
+        1.42412,
+        -4.8
+      ],
+      "rotationY": -0.084346,
+      "scale": 1.09744
+    },
+    {
+      "variant": "leaning",
+      "position": [
+        -11.2,
+        0.1878,
+        7.1
+      ],
+      "rotationY": 2.317906,
+      "scale": 1.10409
+    },
+    {
+      "variant": "tall",
+      "position": [
+        -8.6,
+        2.0231,
+        -7.9
+      ],
+      "rotationY": 2.095071,
+      "scale": 0.9882
+    },
+    {
+      "variant": "wide",
+      "position": [
+        -6.4,
+        0.5984,
+        8.8
+      ],
+      "rotationY": 1.324574,
+      "scale": 1.08493
+    },
+    {
+      "variant": "upright",
+      "position": [
+        5.8,
+        0.63486,
+        -7.5
+      ],
+      "rotationY": -1.261287,
+      "scale": 1.01861
+    },
+    {
+      "variant": "leaning",
+      "position": [
+        7.5,
+        0.66677,
+        7.2
+      ],
+      "rotationY": 0.334891,
+      "scale": 1.10561
+    },
+    {
+      "variant": "tall",
+      "position": [
+        9.4,
+        1.06296,
+        -4.5
+      ],
+      "rotationY": -0.692803,
+      "scale": 0.97579
+    },
+    {
+      "variant": "wide",
+      "position": [
+        11.1,
+        0.68555,
+        3.8
+      ],
+      "rotationY": 2.975108,
+      "scale": 1.09228
+    },
+    {
+      "variant": "upright",
+      "position": [
+        12.6,
+        0.63146,
+        -1.0
+      ],
+      "rotationY": 1.036589,
+      "scale": 0.9557
+    },
+    {
+      "variant": "leaning",
+      "position": [
+        3.9,
+        0.46844,
+        9.2
+      ],
+      "rotationY": -1.166425,
+      "scale": 0.99944
+    },
+    {
+      "variant": "tall",
+      "position": [
+        -14.1,
+        0.38629,
+        1.8
+      ],
+      "rotationY": -3.035629,
+      "scale": 1.04115
+    },
+    {
+      "variant": "wide",
+      "position": [
+        2.2,
+        0.47957,
+        -9.2
+      ],
+      "rotationY": -2.245111,
+      "scale": 1.07445
+    }
+  ],
+  "metrics": {
+    "materialCount": 3,
+    "textureCount": 0,
+    "placementCount": 12
+  }
+}
